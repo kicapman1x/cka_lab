@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  serviceAccountName: no-auto-mount
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - name: kube-api-access
+      mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      readOnly: true
+  volumes:
+  - name: kube-api-access
+    secret:
+      secretName: cred 
+      items:
+      - key: no-auto-mount-testns-token
+        path: token 
