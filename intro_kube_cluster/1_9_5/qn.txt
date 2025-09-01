@@ -1,0 +1,1 @@
+Using the kubectl CLI tool, list all the Services created in your Kubernetes cluster across all namespaces. Save the output of the command to a file named all-k8s-services.txt
