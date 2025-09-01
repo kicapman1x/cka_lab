@@ -1,0 +1,1 @@
+Use the declarative syntax to create a Pod from a YAML file in Kubernetes. Save the YAML file as chap1-pod.yaml. Use the kubectl create command to create the Pod.
