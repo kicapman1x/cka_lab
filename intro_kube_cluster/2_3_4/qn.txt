@@ -1,0 +1,1 @@
+Using the etcdctl CLI tool, back up the etcd datastore to a snapshot file named etcdbackup1.Once that backup is complete, send the output of the command etcdctl snapshot status etcdbackup1 to a file named snapshot-status.txt.

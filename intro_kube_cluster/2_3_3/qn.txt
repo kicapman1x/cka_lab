@@ -1,0 +1,1 @@
+Use the CLI tool, which allows you to view the client certificate that the kubelet uses to authenticate to the Kubernetes API. Output the results to a file named kubelet-config.txt.

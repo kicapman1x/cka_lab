@@ -1,0 +1,1 @@
+Using the etcdctl CLI tool, restore the etcd datastore using the same etcdbackup1 file from the previous exercise. When you complete the restore operation, cat the etcd YAML and save it to a file named etcd-restore.yaml

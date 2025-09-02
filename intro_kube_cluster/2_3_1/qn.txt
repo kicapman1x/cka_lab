@@ -1,0 +1,1 @@
+Increase your efficiency with running kubectl commands by shortening kubectl and creating a shell alias to k.
