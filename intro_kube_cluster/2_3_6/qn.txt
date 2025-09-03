@@ -1,0 +1,4 @@
+Upgrade the control plane components using kubeadm. When completed, check that everything, including kubelet and kubectl, is upgraded to version 1.24.0
+
+Note: the answer script works fine but do it in the container. 
+Meaning, copy it to the container first, and run it there. 
