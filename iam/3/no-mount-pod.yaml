@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: no-mount-pod
+spec:
+  serviceAccountName: secure-sa
+  automountServiceAccountToken: false
+  containers:
+  - name: busybox
+    image: busybox
+    command: ["sh", "-c", "while true; do echo I AM ALIVE!; sleep 10; done"]
