@@ -1,0 +1,5 @@
+Create a Pod named limited with the image httpd and set the resource requests to 1Gi for CPU and 100Mi for memory. Create a ConfigMap named ui-data with the key and value pairs as follows. Apply a ConfigMap to a Pod named frontend with the image busybox:1.28 and pass it to the Pod via the following environment variables:
+color.good=purple
+color.bad=yellow
+allow.textmode=true
+how.nice.to.look=fairlyNice

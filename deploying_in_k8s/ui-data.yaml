@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ui-data
+data: 
+  color.good: purple
+  color.bad: yellow
+  #take note ah value is string no boolean
+  allow.textmode: "true"
+  how.nice.to.look: fairlyNice
