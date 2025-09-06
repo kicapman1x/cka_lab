@@ -1,0 +1,1 @@
+There’s a third node in the cluster named k8s, but it is not appearing when you perform the kubectl get nodes command. The name of the node is node02. Allow node02 to join the cluster by recreating the join command and ensuring that the node is in a Ready state when you list all the nodes in the cluster.

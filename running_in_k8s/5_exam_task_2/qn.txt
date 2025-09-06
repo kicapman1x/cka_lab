@@ -1,0 +1,1 @@
+The node named kind-worker on the k8s-cluster is experiencing problems with leaking memory. You must take down the node for maintenance by first disabling the scheduling of new Pods to the node kind-worker. Then, evict all Pods that are currently running on kind-worker. Finally, once you’ve verified that no Pods are running on kind-worker, enable scheduling once again.

@@ -1,0 +1,1 @@
+Create a Deployment named apache that uses the image httpd:2.4.54 and contains three Pod replicas. After the Deployment has been created, scale the Deployment to five replicas and change the image to httpd:alpine.
