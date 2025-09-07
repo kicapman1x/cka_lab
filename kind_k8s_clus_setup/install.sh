@@ -12,3 +12,6 @@ curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/b
 sudo docker update --restart no k8s-cluster-worker k8s-cluster-worker2 k8s-cluster-control-plane
 
 source kindvars.env
+
+#ingress-controller
+kubectl apply -f nginx-ingress-controller.yaml
