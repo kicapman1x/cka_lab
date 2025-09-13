@@ -1,0 +1,1 @@
+Create a Deployment named hello using the image nginxdemos/hello:plain-text. The container is exposed on port 80. Create a Service named hello-svc that targets the hello Deployment on port 80. Then, create an Ingress resource that will allow you to resolve the DNS name hello.com to the ClusterIP Service named hello-svc in Kubernetes.

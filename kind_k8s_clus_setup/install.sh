@@ -12,31 +12,3 @@ curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/b
 sudo docker update --restart no k8s-cluster-worker k8s-cluster-worker2 k8s-cluster-control-plane
 
 source kindvars.env
-
-#ingress-controller
-kubectl apply -f nginx-ingress-controller.yaml
-
-#load-balancer
-#Im assuming the host would be 172.18.0.1, you shd defo check
-docker exec -it k8s-cluster-worker sh -c 'cat <<EOF | tee /etc/resolv.conf
-nameserver 172.18.0.1
-nameserver 8.8.8.8
-nameserver 1.1.1.1
-options ndots:0
-EOF'
-
-docker exec -it k8s-cluster-worker2 sh -c 'cat <<EOF | tee /etc/resolv.conf
-nameserver 172.18.0.1
-nameserver 8.8.8.8
-nameserver 1.1.1.1
-options ndots:0
-EOF'
-
-docker exec -it k8s-cluster-control-plane sh -c 'cat <<EOF | tee /etc/resolv.conf
-nameserver 172.18.0.1
-nameserver 8.8.8.8
-nameserver 1.1.1.1
-options ndots:0
-EOF'
-
-kubectl apply -f metallb.yaml
