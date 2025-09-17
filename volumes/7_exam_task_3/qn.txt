@@ -1,0 +1,1 @@
+In cluster ek8s, create a Pod named log-collector that uses a volume with type emptyDir named logvol. Mount the volume in the container at /var/log. The name of the YAML file should be log-collector.yaml.
