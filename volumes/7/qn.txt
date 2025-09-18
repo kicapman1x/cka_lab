@@ -1,0 +1,5 @@
+Create a Pod named two-web with two containers. The first container will be named httpd and will use the image httpd:alpine3.17. The second container will be named nginx and will use the image nginx:1.23.3-alpine.
+
+Both containers should access the same volume that is shared from local storage on the container itself. Container1 will mount the volume to /var/www/html/ and Container2 will mount the volume to /usr/share/nginx/html/.
+
+Start up the Pod and ensure everything is mounted and shared correctly.

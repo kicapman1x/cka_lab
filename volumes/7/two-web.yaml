@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: two-web
+spec:
+  containers:
+  - name: nginx
+    image: nginx:1.23.3-alpine
+    volumeMounts:
+    - mountPath: /usr/share/nginx/html
+      name: shared-vol
+  - name: httpd
+    image: httpd:alpine3.17
+    volumeMounts:
+    - mountPath: /var/www/html
+      name: shared-vol
+  volumes:
+  - name: shared-vol
+    emptyDir: {}
