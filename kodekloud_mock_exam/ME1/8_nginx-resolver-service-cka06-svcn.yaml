@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-resolver-service-cka06-svcn
+spec:
+  selector:
+    name: nginx-resolver-cka06-svcn
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

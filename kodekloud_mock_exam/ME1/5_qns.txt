@@ -1,0 +1,10 @@
+
+On the cluster2-controlplane, a Helm chart repository is given under the /opt/ path. It contains the files that describe a set of Kubernetes resources that can be deployed as a single unit. The files have some issues. Fix those issues and deploy them with the following specifications: -
+
+    The release name should be webapp-color-apd.
+    All the resources should be deployed on the frontend-apd namespace.
+    The service type should be node port.
+    Scale the deployment to 3.
+    Application version should be 1.20.0.
+
+NOTE: - Remember to make necessary changes in the values.yaml and Chart.yaml files according to the specifications, and, to fix the issues, inspect the template files. 

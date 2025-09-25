@@ -1,0 +1,5 @@
+The pink-depl-cka14-trb Deployment was scaled to 2 replicas; however, the current replica count is still 1.
+
+Troubleshoot and fix this issue. Make sure the CURRENT count is equal to the DESIRED count.
+
+You can SSH into the cluster4 using ssh cluster4-controlplane command.

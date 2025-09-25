@@ -1,0 +1,8 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: deploy-role-cka20-arch
+rules:
+- apiGroups: ["apps"]
+  resources: ["deployments"]
+  verbs: ["get"]

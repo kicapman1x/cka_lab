@@ -1,0 +1,3 @@
+Create a service account called deploy-cka20-arch. Further, create a cluster role called deploy-role-cka20-arch with permissions to get the deployments in cluster1.
+
+Finally, create a cluster role binding called deploy-role-binding-cka20-arch to bind deploy-role-cka20-arch cluster role with the deploy-cka20-arch service account.

@@ -1,0 +1,5 @@
+Create an HTTPRoute named web-route in the nginx-gateway namespace that directs traffic from the web-gateway to a backend service named web-service on port 80 and ensures that the route is applied only to requests with the hostname cluster2-controlplane.
+
+To test the configuration, run the following command:
+
+curl http://cluster2-controlplane:30080

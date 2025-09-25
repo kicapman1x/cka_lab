@@ -1,0 +1,1 @@
+In the namespace default, there is a deployment called frontend-deployment. Create a Horizontal Pod Autoscaler (HPA), also called frontend-deployment, that keeps average the CPU utilization of the deployment's pods to 70%, limiting the number of pods from a minimum of 2, and a maximum of 10.
