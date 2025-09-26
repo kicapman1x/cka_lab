@@ -1,0 +1,13 @@
+There is a deployment nginx-deployment-cka04-svcn in cluster3 which is exposed using service nginx-service-cka04-svcn.
+
+Create an ingress resource nginx-ingress-cka04-svcn to load balance the incoming traffic with the following specifications:
+
+ingressClassName: nginx-cka04
+
+pathType: Prefix and path: /
+
+Backend Service Name: nginx-service-cka04-svcn
+
+Backend Service Port: 80
+
+ssl-redirect is set to false

@@ -1,0 +1,5 @@
+The db-deployment-cka05-trb deployment is having 0 out of 1 PODs ready.
+
+Figure out the issues and fix them, but do not remove or rename any DB-related environment variable names in the deployment
+
+Do not modify the contents or keys of any existing Secrets.

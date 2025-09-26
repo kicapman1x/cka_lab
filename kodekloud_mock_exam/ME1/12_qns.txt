@@ -1,0 +1,14 @@
+Create a new deployment called ocean-tv-wl09 in the default namespace using the image kodekloud/webapp-color:v1.
+Use the following specs for the deployment:
+
+1. Replica count should be 3.
+
+2. Set the Max Unavailable to 40% and Max Surge to 55%.
+
+3. Create the deployment and ensure all the pods are ready.
+
+4. After successful deployment, upgrade the deployment image to kodekloud/webapp-color:v2 and inspect the deployment rollout status.
+
+5. Check the rolling history of the deployment, and on the cluster1-controlplane, save the current revision count number to the /opt/revision-count.txt file.
+
+6. Finally, perform a rollback and revert the deployment image to the older version.

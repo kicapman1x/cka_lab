@@ -1,0 +1,1 @@
+We tried to schedule the grey-cka21-trb pod on cluster4-controlplane, which was supposed to be deployed by the kubernetes scheduler so far, but somehow it is stuck in a Pending state. Look into the issue and fix it. Make sure the pod is in the Running state.

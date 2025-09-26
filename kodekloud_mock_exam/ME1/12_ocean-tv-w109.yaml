@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ocean-tv-wl09
+  labels:
+    app: webapp-color
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: webapp-color
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 40%
+      maxSurge: 55%
+  template:
+    metadata:
+      labels:
+        app: webapp-color
+    spec:
+      containers:
+      - name: webapp-color
+        image: kodekloud/webapp-color:v1

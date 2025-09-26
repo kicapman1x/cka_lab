@@ -1,0 +1,1 @@
+It appears that the black-cka25-trb deployment in cluster1 isn't up to date. While listing the deployments, we are currently seeing 0 under the UP-TO-DATE section for this deployment. Troubleshoot, fix, and make sure that this deployment is up to date.

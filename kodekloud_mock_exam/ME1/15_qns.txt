@@ -1,0 +1,7 @@
+The purple-app-cka27-trb pod is an nginx based app on the container port 80. This app is exposed within the cluster using a ClusterIP type service called purple-svc-cka27-trb.
+
+There is another pod called purple-curl-cka27-trb which continuously monitors the status of the app running within purple-app-cka27-trb pod by accessing the purple-svc-cka27-trb service using curl.
+
+Recently, we started seeing some errors in the logs of the purple-curl-cka27-trb pod.
+
+Dig into the logs to identify the issue and resolve it.
