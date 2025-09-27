@@ -1,0 +1,17 @@
+Create a storage class called orange-stc-cka07-str as per the properties given below:
+    Provisioner should be kubernetes.io/no-provisioner.
+    Volume binding mode should be WaitForFirstConsumer.
+
+Next, create a persistent volume called orange-pv-cka07-str as per the properties given below:
+    Capacity should be 150Mi.
+    Access mode should be ReadWriteOnce.
+    Reclaim policy should be Retain.
+    It should use storage class orange-stc-cka07-str.
+    Local path should be /opt/orange-data-cka07-str.
+    Also add node affinity to create this value on cluster1-controlplane.
+
+Finally, create a persistent volume claim called orange-pvc-cka07-str as per the properties given below:
+    Access mode should be ReadWriteOnce.
+    It should use storage class orange-stc-cka07-str.
+    Storage request should be 128Mi.
+    The volume should be orange-pv-cka07-str.

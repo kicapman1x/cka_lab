@@ -1,0 +1,1 @@
+Create a PriorityClass named high-priority with a value of 1000000. A deployment named hp-webapp is in the namespace high-priority. Modify the deployment to use the priority class you created. 
