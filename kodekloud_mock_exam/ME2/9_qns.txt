@@ -1,0 +1,5 @@
+John is setting up a two-tier application stack that is supposed to be accessible using the service curlme-cka01-svcn. To test that the service is accessible, he is using a pod called curlpod-cka01-svcn. However, at the moment, he is unable to get any response from the application.
+
+Troubleshoot and fix this issue so the application stack is accessible.
+
+You may delete and recreate the service curlme-cka01-svcn if needed.
