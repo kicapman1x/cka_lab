@@ -1,0 +1,9 @@
+One of our Junior DevOps engineers has deployed a pod nginx-wl06 on the cluster3-controlplane node. However, while specifying the resource limits, instead of using Mebibyte as the unit, Gebibyte was used.
+
+As a result, the node doesn't have sufficient resources to deploy this pod, and it is stuck in a pending state
+
+Fix the units and re-deploy the pod with about 100Mi (Delete and recreate the pod if needed).
+
+Is the Pod running?
+
+Is the memory fixed?

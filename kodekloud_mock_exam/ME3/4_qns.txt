@@ -1,0 +1,5 @@
+List all CRD names associated with VerticalPodAutoscaler and save the results in the file located at /root/vpa-crds.txt on cluster2-controlplane.
+
+NOTE: List the CustomResourceDefinition (CRD) names associated with the VerticalPodAutoscaler, ensuring that each CRD is presented on a new line.
+
+Are the CRD names captured?

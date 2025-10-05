@@ -1,0 +1,13 @@
+Develop an HPA named web-ui-hpa for a deployment named web-ui-deployment in ck1967 namespace that adjusts based on CPU usage. The HPA should maintain an average CPU utilization of 65%, with a minimum of 2 replicas and a maximum of 12. Configure the scale-up behavior to increase the number of pods by 20% every 45 seconds and the scale-down behavior to decrease by 10% every 60 seconds.
+
+Is the minimum number of replicas set to 2?
+
+Is the maximum number of replicas set to 12?
+
+Is the HPA configured to target the correct deployment?
+
+Is the CPU utilization configured to 65%?
+
+Is the scale-up behavior configured?
+
+Is the scale-down behavior configured?

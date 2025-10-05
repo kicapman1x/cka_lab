@@ -1,0 +1,3 @@
+On the cluster1, the team has installed multiple helm charts on a different namespace. By mistake, those deployed resources include one of the vulnerable images called kodekloud/click-counter:latest. Find out the release name and uninstall it.
+
+Is helm release uninstalled?

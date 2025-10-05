@@ -1,0 +1,28 @@
+Part I:
+
+Create a ClusterIP service with name of service-3421-svcn in the spectra-1267 namespace, which should expose the pods, namely, pod-23 and pod-21, with port set to 8080 and targetport to 80.
+
+Part II:
+
+Store the pod names and their IP addresses from the spectra-1267 namespace at /root/pod_ips_cka05_svcn where the output is sorted by their IPs.
+
+Please ensure the format as shown below:
+
+POD_NAME        IP_ADDR
+pod-1           ip-1
+pod-3           ip-2
+pod-2           ip-3
+...
+
+
+Does "service-3421-svcn" exist?
+
+Is service-3421-svcn of "type: ClusterIP"?
+
+Is port: 8080?
+
+Is targetPort: 80?
+
+Does service only expose pod "pod-23" and "pod-21"?
+
+Is the correct and sorted output stored in "/root/pod_ips_cka05_svcn"?
