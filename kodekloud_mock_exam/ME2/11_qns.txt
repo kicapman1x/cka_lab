@@ -1,0 +1,1 @@
+Troubleshoot and resolve the issue with the deployment named nginx-frontend in the cka4974 namespace, which is currently failing to run. Note that the application is intended to serve traffic on port 81.

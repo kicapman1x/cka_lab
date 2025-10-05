@@ -1,0 +1,3 @@
+A deployment called nodeapp-dp-cka08-trb is created in the default namespace on cluster1. This app is using an ingress resource named nodeapp-ing-cka08-trb.
+
+From cluster1-controlplane host, we should be able to access this app using the command curl http://kodekloud-ingress.app. However, it is not working at the moment. Troubleshoot and fix the issue.

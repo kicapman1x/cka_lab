@@ -1,0 +1,5 @@
+
+There is a persistent volume named apple-pv-cka04-str. Create a persistent volume claim named apple-pvc-cka04-str and request a 40Mi of storage from apple-pv-cka04-str PV.
+The access mode should be ReadWriteOnce and storage class should be manual.
+
+Is the apple-pvc-cka04-str pvc created?

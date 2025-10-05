@@ -1,0 +1,5 @@
+Extend the web-route on cka7395 to direct traffic with the path prefix /api to a service named api-service on port 8080, while all other traffic continues to route to web-service.
+
+Is the web-route configured to direct traffic to the api-service?
+
+Is the traffic reaching the deployment?

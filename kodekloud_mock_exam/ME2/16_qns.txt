@@ -1,0 +1,3 @@
+As a Kubernetes administrator, you are unable to run any of the kubectl commands on the cluster. Troubleshoot the problem and get the cluster to a functioning state.
+
+Is the cluster fixed?
