@@ -1,0 +1,9 @@
+Temporarily stop the kube-scheduler and create a pod named onyx-pod using the redis image. The pod should be scheduled on cluster2-controlplane.
+
+Once the onyx-pod is running, start the kube-scheduler. Then, create a second pod named ember-pod using the redis image, and verify that it is running on cluster2-node01.
+
+Note: You must not use tolerations or remove the taints on cluster2-controlplane.
+
+Is the onyx-pod running on cluster2-controlplane node?
+
+Is the ember-pod running on cluster2-node01 node?

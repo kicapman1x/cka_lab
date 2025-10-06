@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Binding
+metadata:
+  name: onyx-pod
+target:
+  apiVersion: v1
+  kind: Node
+  name: cluster2-controlplane

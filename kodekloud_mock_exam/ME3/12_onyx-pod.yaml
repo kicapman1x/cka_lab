@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: onyx-pod
+spec:
+  containers:
+  - name: redis
+    image: redis
+  nodeSelector:
+    kubernetes.io/hostname: cluster2-controlplane
