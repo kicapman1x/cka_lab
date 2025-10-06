@@ -1,0 +1,21 @@
+We want to deploy a Python-based application on the cluster using a template located at /root/olive-app-cka10-str.yaml on cluster1-controlplane. However, before you proceed, we need to make some modifications to the YAML file as per the following details:
+
+    The YAML should also contain a persistent volume claim with name olive-pvc-cka10-str to claim a 100Mi of storage from olive-pv-cka10-str PV.
+
+    Update the deployment to add a co-located container named busybox, which can use busybox image (you might need to add a sleep command for this container to keep it running.)
+
+    Share the python-data volume with this container and mount the same at path /usr/src. Make sure this container only has read permissions on this volume.
+
+    Finally, create a pod using this YAML and make sure the POD is in Running state.
+
+    Note: Additionally, you can expose a NodePort service for the application. The service should be named olive-svc-cka10-str and expose port 5000 with a nodePort value of 32006.
+    However, inclusion/exclusion of this service won't affect the validation for this task.
+
+
+Is the olive-pvc-cka10-str PVC created?
+
+Is the main container created as per the requirements?
+
+Is the co-located container created as per the requirements?
+
+Is the pod in the running state?

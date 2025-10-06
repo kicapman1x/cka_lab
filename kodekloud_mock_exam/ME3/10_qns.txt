@@ -1,0 +1,5 @@
+The demo-pod-cka29-trb pod is stuck in a Pending state. Look into the issue to fix it. Make sure the pod is in the Running state and stable.
+
+Are the issues fixed?
+
+Is the demo-pod-cka29-trb pod in the Running state?

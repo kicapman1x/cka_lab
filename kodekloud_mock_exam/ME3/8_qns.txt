@@ -1,0 +1,7 @@
+A pod definition file is created at /root/peach-pod-cka05-str.yaml on the cluster1-controlplane. Update this manifest file to create a persistent volume claim called peach-pvc-cka05-str to claim a 100Mi of storage from peach-pv-cka05-str PV (this is already created). Use the access mode ReadWriteOnce.
+
+Further, add peach-pvc-cka05-str PVC to peach-pod-cka05-str POD and mount the volume at /var/www/html location. Ensure that the pod is running and the PV is bound.
+
+Is PVC created?
+
+Is the peach-pvc-cka05-str PVC consumed by peach-pod-cka05-str pod?

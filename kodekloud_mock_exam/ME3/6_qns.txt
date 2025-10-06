@@ -1,0 +1,5 @@
+The green-deployment-cka15-trb deployment is having some issues since the corresponding POD is crashing and restarting multiple times continuously.
+
+Investigate the issue and fix it. Make sure the POD is in a running state and is stable (i.e, NO RESTARTS!).
+
+Is POD stable now?

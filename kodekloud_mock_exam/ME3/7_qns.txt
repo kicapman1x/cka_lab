@@ -1,0 +1,7 @@
+Create a VPA named cache-vpa for a stateful application named cache-statefulset in the caching namespace. The VPA should set optimal CPU and memory requests for newly created pods but must not evict existing pods. Configure the VPA to operate in Initial mode to achieve this behavior.
+
+Is the cache-vpa configured to scale the cache-statefulset?
+
+Is the cache-vpa set to Initial mode?
+
+Is the cache-vpa recommending the resource changes?
