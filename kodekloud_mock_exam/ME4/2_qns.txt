@@ -1,0 +1,3 @@
+Utilize helm to search for the repository URL of the Bitnami version of the nginx repository. Ensure that you save the repository URL in the file located at /root/nginx-helm-url.txt on the cluster3-controlplane.
+
+Is the nginx repo url stored?

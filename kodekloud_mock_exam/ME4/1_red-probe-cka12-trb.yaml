@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: red-probe-cka12-trb
+spec:
+  containers:
+  - name: red-probe-cn-cka12-trb
+    image: busybox:latest
+    args:
+    - /bin/sh
+    - -c
+    - sleep 3 ; touch /healthcheck; sleep 30;sleep 30000
+    livenessProbe:
+      exec:
+          command:
+          - cat
+          - /healthcheck
+      initialDelaySeconds: 1
+      periodSeconds: 1
+      failureThreshold: 10

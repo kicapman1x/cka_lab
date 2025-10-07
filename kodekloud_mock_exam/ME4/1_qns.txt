@@ -1,0 +1,11 @@
+A template to create a Kubernetes pod is stored at /root/red-probe-cka12-trb.yaml on the cluster1-controlplane. However, using this template as is resulting in an error.
+
+Fix the issue with this template and use it to create the pod. Once created, watch the pod for a minute or two to ensure it is stable, i.e., it's not crashing or restarting.
+
+Do not update the args: section of the template.
+
+Is the template fixed and applied?
+
+Is the POD stable?
+
+Is the template not manipulated?
