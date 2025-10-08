@@ -1,0 +1,12 @@
+A pod called check-time-cka03-trb is continuously crashing. Figure out what is causing this and fix it.
+
+
+
+
+Ensure that the check-time-cka03-trb POD is in the running state.
+
+This pod prints the current date and time at a pre-defined frequency and saves it to a file. Ensure that it continues this operation once you have fixed it.
+
+Is the check-time-cka03-trb POD fixed?
+
+Is the pod up and running?

@@ -1,0 +1,22 @@
+There is a requirement to share a volume between two containers that are running within the same pod. Use the following instructions to create the pod and related objects:
+
+
+- Create a pod named grape-pod-cka06-str.
+
+- The main container must be named nginx and use the nginx image. Mount a volume grape-vol-cka06-str at /var/log/nginx.
+
+- Add a sidecar container must be named busybox-sidecar using the busybox image. Keep it running with sleep 7200. Mount the same volume grape-vol-cka06-str at `/usr/src.
+
+- The volume should be of type emptyDir.
+
+Does the main container of the pod use correct images?
+
+Does the main container use the correct mount?
+
+Does the busybox-sidecar container of the pod use correct images?
+
+Does sidecar container use the correct mount?
+
+Is volume created correctly?
+
+Is the pod running?

@@ -1,0 +1,12 @@
+The CoreDNS configuration in the cluster needs to be updated:
+
+Update the CoreDNS configuration in the cluster so that DNS resolution for cka.local works exactly like cluster.local and in addition to it.
+
+Test your configuration using the jrecord/nettools image by executing the following commands:
+
+nslookup kubernetes.default.svc.cluster.local
+nslookup kubernetes.default.svc.cka.local
+
+Is CoreDNS able to resolve the domain kubernetes.default.svc.cluster.local?
+
+Is CoreDNS able to resolve the domain kubernetes.default.svc.cka.local?

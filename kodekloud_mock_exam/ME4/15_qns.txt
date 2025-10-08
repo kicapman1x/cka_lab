@@ -1,0 +1,35 @@
+We have a deployment named external-app and a service associated with it named external-service in the external namespace already created.
+
+There is also an existing Ingress resource named external-ingress in the external namespace.
+
+Create HTTPRoute to achieve the same behavior as external-ingress.
+
+Part 1
+
+    Create an HTTP Gateway named web-gateway in the nginx-gateway namespace, which uses the nginx gateway class, and listens on port 80, and allows routes from all namespaces.
+
+Part 2
+
+    Create an HTTPRoute named external-route in the external namespace that binds to the web-gateway in the nginx-gateway namespace and routes traffic to the external-service in the external namespace.
+
+Part 3
+
+    Remove the existing Ingress resource from the external namespace.
+
+Hit curl on the gateway to test the service.
+
+# This is the node port where gatewayclass is attached to
+curl localhost:30080
+
+
+Is HTTPRoute references the correct gateway namespace and service?
+
+Is the gateway created and is it in the nginx-gateway namespace?
+
+Is HTTPRoute linked to service in the external namespace?
+
+Is Gatewayclass configured correctly?
+
+Is the deployment accessible through the gateway?
+
+Is the ingress resource removed?

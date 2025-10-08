@@ -1,0 +1,5 @@
+Utilize the official flannel definition file, located at https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml, to deploy the flannel CNI on the cluster using the CIDR 172.17.0.0/16. Ensure pods can communicate after the CNI is installed.
+
+Is the flannel installed?
+
+Can pods communicate with one another?

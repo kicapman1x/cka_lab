@@ -1,0 +1,5 @@
+A deployment called nginx-dp-cka04-trb has been used to deploy a static website. The access to this website can be tested by running: curl http://cluster1-controlplane:30002. However, it is not working at the moment.
+
+Troubleshoot and fix it.
+
+Is the website is working?

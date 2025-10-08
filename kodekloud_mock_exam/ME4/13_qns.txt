@@ -1,0 +1,9 @@
+A pod called elastic-app-cka02-arch is running in the default namespace. The YAML file for this pod is available at /root/elastic-app-cka02-arch.yaml on the cluster3-controlplane. The single application container in this pod writes logs to the file /var/log/elastic-app.log.
+
+
+One of our logging mechanisms needs to read these logs to send them to an upstream logging server, but we don't want to increase the read overhead for our main application container. So, you need to recreate this POD with an additional co-located container named busybox that will run along with the application container and print to the STDOUT by running the command tail -f /var/log/elastic-app.log. You can use the busybox image for this container.
+
+
+Is the co-located container running as expected?
+
+Is the YAML file updated with the new container?

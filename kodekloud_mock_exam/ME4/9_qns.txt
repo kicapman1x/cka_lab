@@ -1,0 +1,4 @@
+An etcd backup is already stored at the path /opt/cluster1_backup_to_restore.db on the cluster1-controlplane node. Use /root/default.etcd as the --data-dir and restore it on the cluster1-controlplane node itself.
+
+
+Is the etcd backup restored?

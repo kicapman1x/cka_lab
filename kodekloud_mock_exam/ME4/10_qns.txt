@@ -1,0 +1,15 @@
+Create an HPA named webapp-hpa for a deployment named webapp-deployment in the default namespace with service webapp-service associated to it.
+
+The HPA should scale the deployment based on CPU utilization, maintaining an average CPU usage of 50% across all pods with a minimum of 1 and a maximum of 3 replicas.
+
+Configure the HPA to scale down pods cautiously by setting a stabilization window of 300 seconds to prevent rapid fluctuations in pod count.
+
+Check if HPA targets the correct deployment
+
+Check if HPA has CPU target set to 50%
+
+Check if HPA has scale-down stabilization window set to 300s
+
+Check if HPA has minimum replicas set to 1
+
+Check if HPA has maximum replicas set to 3

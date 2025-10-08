@@ -1,0 +1,9 @@
+Identify the CPU and memory resource capacity on cluster2-node01 node and save the results in /root/cluster2-node01-cpu.txt and /root/cluster2-node01-memory.txt, respectively, on the cluster2-controlplane.
+
+Store the values in the following format:
+
+<Resource-name>: <Value>
+
+Is the cpu value stored?
+
+Is the memory value stored?

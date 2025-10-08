@@ -1,0 +1,11 @@
+A manifest file is available at the /root/app-wl03/ on the cluster3-controlplane node. The file has some issues; we couldn't deploy a pod on the cluster3-controlplane node.
+
+After fixing the issues, deploy the pod, and it should be in a running state.
+
+
+NOTE: - Ensure that the existing limits are unchanged.
+
+
+Is the pod app-wl03 created with the given limits?
+
+Is the pod running?
