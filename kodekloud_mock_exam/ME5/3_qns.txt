@@ -1,0 +1,9 @@
+You are an administrator preparing your environment to deploy a kubernetes cluster using kubeadm. Adjust the following network parameters on the system to the following values, and make sure your changes persist reboots:
+
+    net.bridge.bridge-nf-call-iptables = 1
+    net.bridge.bridge-nf-call-ip6tables = 1
+    net.ipv4.ip_forward = 1
+    net.ipv4.conf.all.forwarding = 1
+
+
+Are the network parameters configured and persistent across boot?

@@ -1,0 +1,17 @@
+
+One co-worker deployed a KubeSphere NGINX helm chart on the cluster1 server called lvm-crystal-apd. A new update is pushed to the helm chart, and the team wants you to update the helm repository to fetch the new changes.
+
+
+After updating the helm chart, upgrade its version to 1.3.4 and increase the replica count to 3.
+
+
+NOTE: - We have to perform this task on the cluster1-controlplane node.
+
+
+You can SSH into the cluster1 using ssh cluster1-controlplane command.
+
+Is deployment running?
+
+Is the chart version upgraded?
+
+Is the deployment scaled?

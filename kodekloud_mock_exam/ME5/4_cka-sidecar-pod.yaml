@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: cka-sidecar-pod
+spec:
+  containers:
+  - name: main
+    image: nginx:1.27
+    command: 
+    - sh
+    - -c 
+    - echo 'Hi I am from Sidecar container' > /log/app.log && sleep 3600
+    volumeMounts:
+    - mountPath: /log
+      name: data
+  - name: side
+    image: nginx:1.25
+    volumeMounts:
+    - mountPath: /usr/share/nginx/html
+      name: data
+  volumes:
+  - name: data
+    emptyDir: {}

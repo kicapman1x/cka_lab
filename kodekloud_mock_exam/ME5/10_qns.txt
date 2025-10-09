@@ -1,0 +1,30 @@
+A storage class called coconut-stc-cka01-str was created earlier.
+
+
+Use this storage class to create a persistent volume called coconut-pv-cka01-str as per below requirements:
+
+
+- Capacity should be 100Mi.
+
+- The volume type should be hostpath and the path should be /opt/coconut-stc-cka01-str.
+
+- Use coconut-stc-cka01-str storage class.
+
+- This volume must be created on cluster1-node01 (the /opt/coconut-stc-cka01-str directory already exists on this node).
+
+- It must have a label with key: storage-tier with value: gold.
+
+
+Also, create a persistent volume claim with the name coconut-pvc-cka01-str as per the below specs:
+
+
+- Request 50Mi of storage from coconut-pv-cka01-str PV. It must use matchLabels to use the PV.
+
+- Use coconut-stc-cka01-str storage class.
+
+- The access mode must be ReadWriteMany.
+
+
+Is PV created correctly?
+
+Is PVC created correctly?

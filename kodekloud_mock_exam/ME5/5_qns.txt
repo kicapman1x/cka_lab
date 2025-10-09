@@ -1,0 +1,11 @@
+Create a VPA named api-vpa in Auto Mode for a deployment named api-deployment in the services namespace. The VPA should automatically adjust CPU and memory requests but must ensure that the CPU requests do not exceed 1 cores and memory requests do not exceed 1Gi. Additionally, set a minimum CPU request of 600m and a minimum memory request of 600Mi.
+
+The containerName in VPA should explicitly match the container name inside api-deployment.
+
+Does the API Vertical Pod Autoscaler (VPA) target the API Deployment?
+
+Is the resource request configured within the api-vpa?
+
+Is the resource limit configured within the api-vpa?
+
+Are the resources adjusted for the pods by the api-vpa?

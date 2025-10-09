@@ -1,0 +1,29 @@
+There is a deployment nginx-deployment-cka04-svcn in cluster3 which is exposed using service nginx-service-cka04-svcn.
+
+
+
+Create an ingress resource nginx-ingress-cka04-svcn to load balance the incoming traffic with the following specifications:
+
+
+pathType: Prefix and path: /
+
+Backend Service Name: nginx-service-cka04-svcn
+
+Backend Service Port: 80
+
+ssl-redirect is set to false
+
+
+Is the "nginx-ingress-cka04-svcn" ingress resource created?
+
+Is PathType: "Prefix"?
+
+Is Path: "/"?
+
+Is Backend serviceName: "nginx-service-cka04-svcn"?
+
+Is Backend servicePort: "80"?
+
+Is "ssl-redirect" is set to "false"?
+
+Is ingress working?

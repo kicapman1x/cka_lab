@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: coconut-pvc-cka01-str
+spec:
+  accessModes:
+    - ReadWriteMany
+  volumeMode: Filesystem
+  resources:
+    requests:
+      storage: 50Mi
+  storageClassName: coconut-stc-cka01-str
+  selector:
+    matchLabels:
+      storage-tier: "gold"

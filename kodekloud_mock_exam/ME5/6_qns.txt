@@ -1,0 +1,17 @@
+On cluster3, there is a web application pod running inside the default namespace. This pod is part of a deployment called webapp-color-wl10 and uses an environment variable that can change constantly. Add this environment variable to a configmap and configure the pod in the deployment to make use of this config map.
+
+Use the following specs-
+
+
+1. Create a new configMap called webapp-wl10-config-map with the key and value as - APP_COLOR=red.
+
+2. Update the deployment to make use of the newly created configMap name.
+
+3. Delete and recreate the deployment if necessary.
+
+
+
+
+Is the deployment created with a configmap?
+
+Is configMap created correctly?

@@ -1,0 +1,5 @@
+Inspect the user-defined priority classes on the cluster and output the highest user-defined priority class value to /root/highest-user-prio.txt on cluster2-controlplane.
+
+NOTE: Only the value for the priority class should be recorded.
+
+Is the highest user-defined priority class value stored in /root/highest-user-prio.txt?

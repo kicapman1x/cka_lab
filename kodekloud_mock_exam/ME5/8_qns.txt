@@ -1,0 +1,6 @@
+We recently deployed a DaemonSet called logs-cka26-trb under kube-system namespace in cluster2 for collecting logs from all the cluster nodes including the controlplane node. However, at this moment, the DaemonSet is not creating any pod on the controlplane node.
+
+
+Troubleshoot the issue and fix it to make sure the pods are getting created on all nodes including the controlplane node.
+
+Is DaemonSet able to run the PODs on all nodes?

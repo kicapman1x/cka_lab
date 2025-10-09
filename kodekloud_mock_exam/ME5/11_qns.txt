@@ -1,0 +1,11 @@
+A Kustomize configuration is located at /root/web-dashboard-kustomize on cluster2-controlplane. This application is designed to monitor the pods in the default namespace. It has been deployed using the following command:
+
+kubectl kustomize /root/web-dashboard-kustomize/overlays/dev | kubectl apply -f -
+
+The application is currently unable to monitor the pods due to insufficient permissions. Modify the Kustomize overlays/dev configuration to ensure the application is operational.
+
+The application is currently unable to monitor the pods due to insufficient permissions. Adjust the Kustomize configuration accordingly to ensure the application is operational.
+
+Is Kustomize configuration fixed?
+
+Is the application ready?

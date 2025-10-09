@@ -1,0 +1,7 @@
+A pod called nginx-cka01-trb is running in the default namespace. Inside this pod, there is a container called nginx-container running that uses the image nginx:latest. Another co-located container called logs-container runs in this pod.
+
+For some reason, this pod is continuously crashing. Identify the issue and fix it. Make sure that the pod is in a running state, and you can access the website using the curl http://cluster1-controlplane:30001 command on the controlplane node of cluster1.
+
+Is the pod running?
+
+Is the website accessible?
