@@ -1,0 +1,7 @@
+The deployment called web-dp-cka17-trb has 0 out of 1 pods up and running. Troubleshoot this issue and fix it. Make sure all required POD(s) are in running state and stable (not restarting).
+
+The application runs on port 80 inside the container and is exposed on the node port 30090.
+
+Are POD(s) running and stable?
+
+Are the Issues fixed?
